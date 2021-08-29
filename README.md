@@ -1,6 +1,6 @@
-# Funcionalidades de Login e Kanban Board
+# Projeto para teste de estágio da empresa EloGroup
 
-Projeto para teste de estágio da empresa EloGroup
+Funcionalidades de Login e Kanban Board
 
 ## 🚀 Começando
 
