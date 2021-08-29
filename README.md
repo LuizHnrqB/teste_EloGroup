@@ -8,7 +8,7 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 Feito com a Framework do React, utilizando do gerenciador de pacotes NPM.
 
 ### 📋 Pré-requisitos
-Node.js, ReactStrap, Bootstrap
+Node.js, ReactStrap, BootStrap
 
 ### 🔧 Instalação e Implantação
 
