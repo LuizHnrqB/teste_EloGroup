@@ -60,11 +60,11 @@ const NewUser = () => {
   return (
     <Container style={{ padding: '32px', alignSelf: 'center', marginTop: '196px', marginBottom: '67px', width: '400px', height: '520px', display: 'flex', }} className="login-container"  >
       <Row className="login-title" style={{ fontFamily: 'Open Sans', fontSize: '38px', textDecoration: 'none solid rgb(255, 255, 255)', width: '368px', height: '64px', padding: '10px', alignSelf: 'center' }}>Login </Row>
-      <Row  ><Label className="label-email" style={{ marginBottom: '10px', marginTop: '10px', marginLeft: '0px' }} for="Email"  >Email</Label ></Row>
+      <Row  ><Label className="label-email" style={{ marginBottom: '10px', marginTop: '10px', marginLeft: '-10px' }} for="Email"  >Email</Label ></Row>
       <Row > <Input className="input-email" style={{ marginBottom: '10px', marginTop: '10px' }} size="sm" type="email" name="email" id="email" placeholder="Email de cadastro" /></Row>
-      <Row ><Label className="label-password" style={{ marginBottom: '10px', marginTop: '10px' }} for="password" >Senha</Label></Row>
+      <Row ><Label className="label-password" style={{ marginBottom: '10px', marginTop: '10px', marginLeft: '-10px' }} for="password" >Senha</Label></Row>
       <Row ><Input className="input-password" style={{ marginBottom: '10px', marginTop: '10px' }} size="sm" type="password" value={NewUserPassword} name="password" id="password" placeholder="Senha" onChange={handlePassword} /></Row>
-      <Row ><Label className="label-passwordConfirm" style={{ float: 'left', marginBottom: '10px', marginTop: '10px' }} for="passwordconfirmation">Digite a senha novamente </Label></Row>
+      <Row ><Label className="label-passwordConfirm" style={{ marginBottom: '10px', marginTop: '10px', marginLeft: '-10px' }} for="passwordconfirmation">Digite a senha novamente </Label></Row>
       <Row ><Input className="input-passwordConfirm" style={{ marginBottom: '10px', marginTop: '10px' }} size="sm" type="password" value={NewUserPasswordConfirmation} name="passwordconfirmation" id="passwordconfirmation" placeholder="Confirme a senha" onChange={handlePasswordConfirmation} /></Row>
       <div><Button className="loginbt" style={{ backgroundColor: '#437391', fontFamily: 'Open Sans', width: '200px', height: '50px', marginLeft: '50px', marginTop: '10px' }} onClick={checkPassword}>
         Enviar
