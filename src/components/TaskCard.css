@@ -1,0 +1,20 @@
+.task-card {
+    background: #437391;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 5px;
+    word-break: break-all;
+    word-wrap: break-word;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: #14222b;
+    border-bottom: solid;
+    font-size:small;
+    box-shadow: #14222b;
+    font-size: 14px;
+
+  }
+  
+  .task-card:hover {
+    background-color: #ddd;
+  }

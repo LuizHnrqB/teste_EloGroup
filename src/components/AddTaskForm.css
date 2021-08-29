@@ -1,0 +1,95 @@
+.task-input {
+  background: #FAFAFA;
+  margin-bottom: 8px;
+  padding: 8px;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: "Open Sans";
+  
+}
+
+.button {
+  width: 120px;
+  height: 32px;
+  border-radius: 6px;
+  background-color: #437391;
+  background-size: cover;
+  font-family: "Open Sans";
+  font-size: 16px;
+  color: #437391;
+  text-decoration: none solid;
+  text-align: center;
+  color: #fff;
+  font-weight: 900;
+}
+
+.button:hover {
+  opacity: .85;
+  transition: 0.3s; 
+  color: #ffffff;
+
+
+}
+
+.add-button {
+  background-color: #1EBDB5;
+  font-size: small;
+  align-self: left;
+  font-family: "Open Sans"; 
+  margin-right: 18px;
+
+}
+
+.cancel-button {
+  background-color: #EC4B58;
+  font-size: small;
+  align-self: left;
+  font-family: "Open Sans";
+ 
+}
+
+.open-add-button {
+  padding: 8px;
+  border-radius: 6px; 
+  display: flex;
+  background: #1ebdb5;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+ 
+}
+
+.open-add-button a {
+ color: #ffffff ;
+text-decoration: none;
+font-size:14px ;
+
+font-weight: bold;
+
+
+}
+
+.list .open-add-button:hover {
+  background: #1AA39D;
+  color: #ffffff;
+}
+
+
+
+.list .add-list-button a {
+background-color: aqua;
+font-size: small;
+}
+
+.add-list-wrapper{
+background-color: #8cc4e7;
+border-radius: 5px;
+font-family: "Open Sans";
+}
+
+
+
